@@ -65,6 +65,8 @@ RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
 # Copy custom nodes into ComfyUI's custom_nodes directory
 COPY ComfyUI-LTXVideo-master /comfyui/custom_nodes/ComfyUI-LTXVideo/
 COPY ComfyUI-Licon-MSR-main /comfyui/custom_nodes/ComfyUI-Licon-MSR/
+COPY ComfyUI-KJNodes /comfyui/custom_nodes/ComfyUI-KJNodes/
+COPY ComfyUI-PromptRelay /comfyui/custom_nodes/ComfyUI-PromptRelay/
 
 # comfy-cli installs ComfyUI into its own workspace venv (/comfyui/.venv), but
 # start.sh launches ComfyUI with /opt/venv's python. That mismatch leaves the

@@ -1,0 +1,6 @@
+[submodule "ComfyUI-KJNodes"]
+	path = ComfyUI-KJNodes
+	url = https://github.com/kijai/ComfyUI-KJNodes.git
+[submodule "ComfyUI-PromptRelay"]
+	path = ComfyUI-PromptRelay
+	url = https://github.com/kijai/ComfyUI-PromptRelay.git

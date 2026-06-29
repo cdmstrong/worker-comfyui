@@ -1,0 +1,18 @@
+Farmer:
+An elderly farmer wearing a wide-brimmed straw hat and a yellow shirt, with a kind and gentle smile.
+
+Goat:
+A gentle-looking white goat wearing a brown collar with a golden bell. It has curved horns and calm, docile eyes.
+
+Pig:
+A round and adorable pink pig with an upward-curled tail, a cute and slightly silly expression, smooth delicate skin, and short but sturdy legs.
+
+Farm:
+A green grassy farm surrounded by wooden fences. On the right side stands a small shed with a blue metal roof. In the distance are golden wheat fields under a blue sky with white clouds. Warm sunlight falls across the scene, creating soft and gentle lighting and shadows.
+
+Prompt:
+Anime style, keep the original visual style unchanged, maintain strong reference consistency for the farmer, goat, pig, and farm environment. Fixed wide-angle shot, a bright and sunny countryside farm. On the left side of the frame is a wooden goat pen, and on the right side is a blue pig shed. An elderly farmer wearing a straw hat stands in the center with a kind, gentle smile. A white goat with a small bell around its neck is inside the goat pen, softly bleating. In the pig shed on the right, a pink little pig is sleeping.
+
+The farmer slowly walks toward the goat pen on the left, reaches through the fence, and gently strokes the goat’s head. The goat affectionately rubs against him, and the bell makes a soft, delicate sound. Then the farmer turns around and slowly walks toward the pig shed on the right. He bends down slightly and gently pats the pig’s head. The pig wakes up, lifts its head, sees the farmer, stands up, walks out of the shed, circles around the farmer once, and rubs its head against the farmer’s leg.
+
+A light breeze blows softly, making the grass and leaves sway slightly. The sunlight and shadows shift slowly and naturally. Low motion, with only subtle breathing-like movements and gentle natural details. Maintain the anime style throughout, do not change the character designs, proportions, colors, clothing, animal features, farm layout, or overall visual style from the references.

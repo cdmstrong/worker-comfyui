@@ -1,0 +1,497 @@
+2026-06-29T09:36:51.998Z [INFO] #16 0.986 Downloading torchvision (7.3MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.986 Downloading comfyui-workflow-templates-media-other (85.1MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.987 Downloading comfyui-workflow-templates-media-image (86.0MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading nvidia-cuda-runtime (2.1MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading kornia-rs (3.5MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading torchaudio (1.7MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading nvidia-cufile (1.2MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading av (33.7MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.996 Downloading nvidia-cusparse (139.2MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.997 Downloading nvidia-nvjitlink (38.8MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 0.997 Downloading pyopengl (3.0MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 1.000 Downloading nvidia-cufft (204.2MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 1.000 Downloading nvidia-nvshmem-cu13 (57.6MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 1.001 Downloading comfyui-embedded-docs (14.6MiB)
+2026-06-29T09:36:51.998Z [INFO] #16 1.001 Downloading comfy-kitchen (3.6MiB)
+2026-06-29T09:36:52.483Z [INFO] #16 1.636  Downloaded nvidia-cufile
+2026-06-29T09:36:52.583Z [INFO] #16 1.670  Downloaded sentencepiece
+2026-06-29T09:36:52.583Z [INFO] #16 1.690  Downloaded setuptools
+2026-06-29T09:36:52.583Z [INFO] #16 1.736  Downloaded kornia
+2026-06-29T09:36:52.698Z [INFO] #16 1.820  Downloaded torchaudio
+2026-06-29T09:36:52.698Z [INFO] #16 1.852  Downloaded aiohttp
+2026-06-29T09:36:52.829Z [INFO] #16 1.936  Downloaded networkx
+2026-06-29T09:36:52.829Z [INFO] #16 1.982  Downloaded nvidia-cuda-runtime
+2026-06-29T09:36:53.215Z [INFO] #16 2.369  Downloaded tokenizers
+2026-06-29T09:36:53.346Z [INFO] #16 2.371  Downloaded sqlalchemy
+2026-06-29T09:36:53.346Z [INFO] #16 2.499  Downloaded comfy-kitchen
+2026-06-29T09:36:53.526Z [INFO] #16 2.529  Downloaded kornia-rs
+2026-06-29T09:36:53.624Z [INFO] #16 2.777  Downloaded hf-xet
+2026-06-29T09:36:53.749Z [INFO] #16 2.903  Downloaded pyopengl
+2026-06-29T09:36:54.174Z [INFO] #16 3.328  Downloaded sympy
+2026-06-29T09:36:54.341Z [INFO] #16 3.425  Downloaded cuda-bindings
+2026-06-29T09:36:54.341Z [INFO] #16 3.494  Downloaded pillow
+2026-06-29T09:36:54.576Z [INFO] #16 3.578  Downloaded torchvision
+2026-06-29T09:36:55.045Z [INFO] #16 4.198  Downloaded nvidia-cuda-cupti
+2026-06-29T09:36:55.190Z [INFO] #16 4.343  Downloaded transformers
+2026-06-29T09:36:56.400Z [INFO] #16 5.553  Downloaded numpy
+2026-06-29T09:36:56.535Z [INFO] #16 5.689  Downloaded comfyui-embedded-docs
+2026-06-29T09:36:57.939Z [INFO] #16 7.092  Downloaded comfyui-frontend-package
+2026-06-29T09:36:59.504Z [INFO] #16 8.657  Downloaded av
+2026-06-29T09:36:59.735Z [INFO] #16 8.738  Downloaded scipy
+2026-06-29T09:37:00.318Z [INFO] #16 9.472  Downloaded nvidia-nvjitlink
+2026-06-29T09:37:02.514Z [INFO] #16 11.67  Downloaded nvidia-curand
+2026-06-29T09:37:02.637Z [INFO] #16 11.79  Downloaded nvidia-nvshmem-cu13
+2026-06-29T09:37:05.440Z [INFO] #16 14.59  Downloaded comfyui-workflow-templates-media-other
+2026-06-29T09:37:05.542Z [INFO] #16 14.70  Downloaded nvidia-cuda-nvrtc
+2026-06-29T09:37:05.693Z [INFO] #16 14.70  Downloaded comfyui-workflow-templates-media-image
+2026-06-29T09:37:05.896Z [INFO] #16 15.05  Downloaded comfyui-workflow-templates-media-api
+2026-06-29T09:37:06.118Z [INFO] #16 15.27  Downloaded comfyui-workflow-templates-media-video
+2026-06-29T09:37:09.359Z [INFO] #16 18.51  Downloaded nvidia-cusparse
+2026-06-29T09:37:10.872Z [INFO] #16 20.03  Downloaded nvidia-cusparselt-cu13
+2026-06-29T09:37:12.338Z [INFO] #16 21.49  Downloaded triton
+2026-06-29T09:37:12.561Z [INFO] #16 21.56  Downloaded nvidia-cusolver
+2026-06-29T09:37:12.617Z [INFO] #16 21.77  Downloaded nvidia-nccl-cu13
+2026-06-29T09:37:12.793Z [INFO] #16 21.95  Downloaded nvidia-cufft
+2026-06-29T09:37:16.019Z [INFO] #16 25.17  Downloaded nvidia-cudnn-cu13
+2026-06-29T09:37:16.964Z [INFO] #16 26.12  Downloaded nvidia-cublas
+2026-06-29T09:37:18.812Z [INFO] #16 27.97  Downloaded torch
+2026-06-29T09:37:18.995Z [INFO] #16 27.97 Prepared 75 packages in 27.05s
+2026-06-29T09:37:18.995Z [INFO] #16 28.00 Uninstalled 2 packages in 31ms
+2026-06-29T09:37:20.305Z [INFO] #16 29.46 Installed 75 packages in 1.46s
+2026-06-29T09:37:20.543Z [INFO] #16 29.46  + aiohappyeyeballs==2.6.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + aiohttp==3.14.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + aiosignal==1.4.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + alembic==1.18.5
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + attrs==26.1.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + av==17.1.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + blake3==1.0.9
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfy-aimdo==0.4.10
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfy-kitchen==0.2.10
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-embedded-docs==0.5.5
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-frontend-package==1.45.19
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates==0.10.7
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates-core==0.3.263
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates-media-api==0.3.81
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates-media-image==0.3.157
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates-media-other==0.3.226
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + comfyui-workflow-templates-media-video==0.3.98
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + cuda-bindings==13.3.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + cuda-pathfinder==1.5.5
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + cuda-toolkit==13.0.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + einops==0.8.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + filelock==3.29.4
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + frozenlist==1.8.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + fsspec==2026.6.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + glfw==2.10.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + greenlet==3.5.3
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + hf-xet==1.5.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + huggingface-hub==1.21.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + kornia==0.8.3
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + kornia-rs==0.1.14
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + mako==1.3.12
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + mpmath==1.3.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + multidict==6.7.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + networkx==3.6.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + numpy==2.5.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cublas==13.1.1.3
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cuda-cupti==13.0.85
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cuda-nvrtc==13.0.88
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cuda-runtime==13.0.96
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cudnn-cu13==9.20.0.48
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cufft==12.0.0.61
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cufile==1.15.1.6
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-curand==10.4.0.35
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cusolver==12.0.4.66
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cusparse==12.6.3.3
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-cusparselt-cu13==0.8.1
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-nccl-cu13==2.29.7
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-nvjitlink==13.0.88
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-nvshmem-cu13==3.4.5
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + nvidia-nvtx==13.0.85
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + pillow==12.2.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + propcache==0.5.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + pydantic-settings==2.14.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + pyopengl==3.1.10
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + python-dotenv==1.2.2
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + regex==2026.6.28
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + safetensors==0.8.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + scipy==1.18.0
+2026-06-29T09:37:20.544Z [INFO] #16 29.46  + sentencepiece==0.2.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  - setuptools==82.0.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + setuptools==81.0.0
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + simpleeval==1.0.7
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + spandrel==0.4.2
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + sqlalchemy==2.0.51
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + sympy==1.14.0
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + tokenizers==0.22.2
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + torch==2.12.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + torchaudio==2.11.0
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + torchsde==0.2.6
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + torchvision==0.27.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + tqdm==4.68.3
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + trampoline==0.1.2
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + transformers==5.12.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + triton==3.7.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  - typer==0.26.8
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + typer==0.25.1
+2026-06-29T09:37:20.545Z [INFO] #16 29.46  + yarl==1.24.2
+2026-06-29T09:37:20.545Z [INFO] #16 29.55 Using Python 3.12.3 environment at: /opt/venv
+2026-06-29T09:37:20.747Z [INFO] #16 29.90 Resolved 66 packages in 349ms
+2026-06-29T09:37:20.960Z [INFO] #16 29.97 Downloading diffusers (5.0MiB)
+2026-06-29T09:37:20.960Z [INFO] #16 29.97 Downloading timm (2.5MiB)
+2026-06-29T09:37:20.960Z [INFO] #16 30.11  Downloaded timm
+2026-06-29T09:37:21.162Z [INFO] #16 30.19  Downloaded diffusers
+2026-06-29T09:37:21.162Z [INFO] #16 30.19 Prepared 5 packages in 285ms
+2026-06-29T09:37:21.162Z [INFO] #16 30.32 Installed 5 packages in 126ms
+2026-06-29T09:37:21.162Z [INFO] #16 30.32  + diffusers==0.38.0
+2026-06-29T09:37:21.162Z [INFO] #16 30.32  + importlib-metadata==9.0.0
+2026-06-29T09:37:21.396Z [INFO] #16 30.32  + ninja==1.11.1.4
+2026-06-29T09:37:21.396Z [INFO] #16 30.32  + timm==1.0.27
+2026-06-29T09:37:21.396Z [INFO] #16 30.32  + zipp==4.1.0
+2026-06-29T09:37:21.396Z [INFO] #16 30.40 Using Python 3.12.3 environment at: /opt/venv
+2026-06-29T09:37:21.522Z [INFO] #16 30.68 Resolved 2 packages in 273ms
+2026-06-29T09:37:21.702Z [INFO] #16 30.70 Downloading opencv-python (69.5MiB)
+2026-06-29T09:37:22.889Z [INFO] #16 32.04  Downloaded opencv-python
+2026-06-29T09:37:23.044Z [INFO] #16 32.04 Prepared 1 package in 1.36s
+2026-06-29T09:37:23.044Z [INFO] #16 32.13 Installed 1 package in 88ms
+2026-06-29T09:37:23.044Z [INFO] #16 32.13  + opencv-python==4.13.0.92
+2026-06-29T09:37:23.044Z [INFO] #16 32.20 Using Python 3.12.3 environment at: /opt/venv
+2026-06-29T09:37:23.182Z [INFO] #16 32.34 Resolved 18 packages in 134ms
+2026-06-29T09:37:23.353Z [INFO] #16 32.36 Downloading transformers (11.4MiB)
+2026-06-29T09:37:23.643Z [INFO] #16 32.80  Downloaded transformers
+2026-06-29T09:37:23.773Z [INFO] #16 32.80 Prepared 2 packages in 459ms
+2026-06-29T09:37:23.773Z [INFO] #16 32.93 Uninstalled 2 packages in 130ms
+2026-06-29T09:37:24.065Z [INFO] #16 33.22 Installed 2 packages in 292ms
+2026-06-29T09:37:24.065Z [INFO] #16 33.22  - huggingface-hub==1.21.0
+2026-06-29T09:37:24.066Z [INFO] #16 33.22  + huggingface-hub==0.36.2
+2026-06-29T09:37:24.216Z [INFO] #16 33.22  - transformers==5.12.1
+2026-06-29T09:37:24.216Z [INFO] #16 33.22  + transformers==4.57.6
+2026-06-29T09:37:24.414Z [INFO] #16 DONE 33.6s
+2026-06-29T09:37:24.565Z [INFO] #17 [base 11/21] RUN cd /comfyui && timeout 300 python main.py --quick-test-for-ci --cpu
+2026-06-29T09:37:26.168Z [INFO] #17 1.753 [32m[INFO][0m setup plugin alembic.autogenerate.schemas
+2026-06-29T09:37:26.168Z [INFO] #17 1.753 [32m[INFO][0m setup plugin alembic.autogenerate.tables
+2026-06-29T09:37:26.319Z [INFO] #17 1.753 [32m[INFO][0m setup plugin alembic.autogenerate.types
+2026-06-29T09:37:26.319Z [INFO] #17 1.753 [32m[INFO][0m setup plugin alembic.autogenerate.constraints
+2026-06-29T09:37:26.319Z [INFO] #17 1.754 [32m[INFO][0m setup plugin alembic.autogenerate.defaults
+2026-06-29T09:37:26.319Z [INFO] #17 1.754 [32m[INFO][0m setup plugin alembic.autogenerate.comments
+2026-06-29T09:37:32.198Z [INFO] #17 7.783 [32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'apply_rope_split_half', 'apply_rope_split_half1', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'gemv_awq_w4a16', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'stochastic_rounding_fp8']}
+2026-06-29T09:37:32.199Z [INFO] #17 7.783 [32m[INFO][0m Found comfy_kitchen backend cuda: {'available': False, 'disabled': False, 'unavailable_reason': 'CUDA not available on this system', 'capabilities': []}
+2026-06-29T09:37:32.199Z [INFO] #17 7.783 [32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': 'Neither CUDA nor XPU available on this system', 'capabilities': []}
+2026-06-29T09:37:32.395Z [INFO] #17 7.804 [32m[INFO][0m Checkpoint files will always be loaded safely.
+2026-06-29T09:37:32.395Z [INFO] #17 7.830 [32m[INFO][0m Total VRAM 773304 MB, total RAM 773304 MB
+2026-06-29T09:37:32.395Z [INFO] #17 7.830 [32m[INFO][0m pytorch version: 2.12.1+cu130
+2026-06-29T09:37:32.395Z [INFO] #17 7.830 [32m[INFO][0m Set vram state to: DISABLED
+2026-06-29T09:37:32.395Z [INFO] #17 7.830 [32m[INFO][0m Device: cpu
+2026-06-29T09:37:32.632Z [INFO] #17 8.217 [32m[INFO][0m Using sub quadratic optimization for attention, if you have memory or speed issues try using: --use-split-cross-attention
+2026-06-29T09:37:36.768Z [INFO] #17 12.35 [32m[INFO][0m Python version: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
+2026-06-29T09:37:36.768Z [INFO] #17 12.35 [32m[INFO][0m ComfyUI version: 0.26.2
+2026-06-29T09:37:36.923Z [INFO] #17 12.35 [32m[INFO][0m comfy-aimdo version: 0.4.10
+2026-06-29T09:37:36.923Z [INFO] #17 12.35 [32m[INFO][0m comfy-kitchen version: 0.2.10
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m comfyui-frontend-package version: 1.45.19
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m comfyui-workflow-templates version: 0.10.7
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m comfyui-embedded-docs version: 0.5.5
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m comfy-kitchen version: 0.2.10
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m comfy-aimdo version: 0.4.10
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m [Prompt Server] web root: /opt/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+2026-06-29T09:37:36.923Z [INFO] #17 12.36 [32m[INFO][0m Asset seeder disabled
+2026-06-29T09:37:39.648Z [INFO] #17 15.23 [1m[33m[WARNING][0m Traceback (most recent call last):
+2026-06-29T09:37:39.648Z [INFO] #17 15.23   File "/comfyui/nodes.py", line 2220, in load_custom_node
+2026-06-29T09:37:39.648Z [INFO] #17 15.23     module_spec.loader.exec_module(module)
+2026-06-29T09:37:39.648Z [INFO] #17 15.23   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2026-06-29T09:37:39.648Z [INFO] #17 15.23   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2026-06-29T09:37:39.648Z [INFO] #17 15.23   File "/comfyui/custom_nodes/ComfyUI-LTXVideo/__init__.py", line 49, in <module>
+2026-06-29T09:37:39.648Z [INFO] #17 15.23     from .pyramid_blending import LTXVLaplacianPyramidBlend
+2026-06-29T09:37:39.648Z [INFO] #17 15.23   File "/comfyui/custom_nodes/ComfyUI-LTXVideo/pyramid_blending.py", line 7, in <module>
+2026-06-29T09:37:39.648Z [INFO] #17 15.23     from kornia.geometry.transform.pyramid import (
+2026-06-29T09:37:39.648Z [INFO] #17 15.23 ImportError: cannot import name 'pad' from 'kornia.geometry.transform.pyramid' (/opt/venv/lib/python3.12/site-packages/kornia/geometry/transform/pyramid.py)
+2026-06-29T09:37:39.648Z [INFO] #17 15.23
+2026-06-29T09:37:39.648Z [INFO] #17 15.23 [1m[33m[WARNING][0m Cannot import /comfyui/custom_nodes/ComfyUI-LTXVideo module for custom nodes: cannot import name 'pad' from 'kornia.geometry.transform.pyramid' (/opt/venv/lib/python3.12/site-packages/kornia/geometry/transform/pyramid.py)
+2026-06-29T09:37:39.648Z [INFO] #17 15.23 [32m[INFO][0m
+2026-06-29T09:37:39.648Z [INFO] #17 15.23 Import times for custom nodes:
+2026-06-29T09:37:39.765Z [INFO] #17 15.23 [32m[INFO][0m    0.0 seconds: /comfyui/custom_nodes/websocket_image_save.py
+2026-06-29T09:37:39.765Z [INFO] #17 15.23 [32m[INFO][0m    0.0 seconds: /comfyui/custom_nodes/ComfyUI-Licon-MSR
+2026-06-29T09:37:39.765Z [INFO] #17 15.23 [32m[INFO][0m    0.7 seconds (IMPORT FAILED): /comfyui/custom_nodes/ComfyUI-LTXVideo
+2026-06-29T09:37:39.765Z [INFO] #17 15.23 [32m[INFO][0m
+2026-06-29T09:37:39.766Z [INFO] #17 15.24 [32m[INFO][0m Context impl SQLiteImpl.
+2026-06-29T09:37:39.766Z [INFO] #17 15.24 [32m[INFO][0m Will assume non-transactional DDL.
+2026-06-29T09:37:39.766Z [INFO] #17 15.25 [32m[INFO][0m Running upgrade  -> 0001_assets, Initial assets schema
+2026-06-29T09:37:39.766Z [INFO] #17 15.25 Revision ID: 0001_assets
+2026-06-29T09:37:39.766Z [INFO] #17 15.25 Revises: None
+2026-06-29T09:37:39.766Z [INFO] #17 15.25 Create Date: 2025-12-10 00:00:00
+2026-06-29T09:37:39.766Z [INFO] #17 15.26 [32m[INFO][0m Running upgrade 0001_assets -> 0002_merge_to_asset_references, Merge AssetInfo and AssetCacheState into unified asset_references table.
+2026-06-29T09:37:39.766Z [INFO] #17 15.28 [32m[INFO][0m Running upgrade 0002_merge_to_asset_references -> 0003_add_metadata_job_id, Add system_metadata and job_id columns to asset_references.
+2026-06-29T09:37:39.766Z [INFO] #17 15.28 Change preview_id FK from assets.id to asset_references.id.
+2026-06-29T09:37:39.766Z [INFO] #17 15.30 [32m[INFO][0m Running upgrade 0003_add_metadata_job_id -> 0004_drop_tag_type, Drop the vestigial tags.tag_type column.
+2026-06-29T09:37:39.766Z [INFO] #17 15.31 [32m[INFO][0m Database upgraded from None to 0004_drop_tag_type
+2026-06-29T09:37:39.766Z [INFO] #17 15.35 [32m[INFO][0m Using RAM pressure cache.
+2026-06-29T09:37:40.395Z [INFO] #17 15.98 Exception ignored in: <function BaseFileLock.__del__ at 0x706d6bb04680>
+2026-06-29T09:37:40.396Z [INFO] #17 15.98 Traceback (most recent call last):
+2026-06-29T09:37:40.396Z [INFO] #17 15.98   File "/opt/venv/lib/python3.12/site-packages/filelock/_api.py", line 602, in __del__
+2026-06-29T09:37:40.396Z [INFO] #17 15.98   File "/opt/venv/lib/python3.12/site-packages/filelock/_api.py", line 569, in release
+2026-06-29T09:37:40.396Z [INFO] #17 15.98   File "/opt/venv/lib/python3.12/site-packages/filelock/_unix.py", line 107, in _release
+2026-06-29T09:37:40.396Z [INFO] #17 15.98   File "/usr/lib/python3.12/pathlib.py", line 1164, in __init__
+2026-06-29T09:37:40.396Z [INFO] #17 15.98   File "/usr/lib/python3.12/pathlib.py", line 358, in __init__
+2026-06-29T09:37:40.396Z [INFO] #17 15.98 ImportError: sys.meta_path is None, Python is likely shutting down
+2026-06-29T09:37:41.402Z [INFO] #17 DONE 17.0s
+2026-06-29T09:37:41.634Z [INFO] #18 [base 12/21] WORKDIR /comfyui
+2026-06-29T09:37:41.634Z [INFO] #18 DONE 0.1s
+2026-06-29T09:37:41.634Z [INFO] #19 [base 13/21] ADD src/extra_model_paths.yaml ./
+2026-06-29T09:37:41.634Z [INFO] #19 DONE 0.0s
+2026-06-29T09:37:41.634Z [INFO] #20 [base 14/21] RUN uv pip install runpod requests websocket-client
+2026-06-29T09:37:41.740Z [INFO] #20 0.257 Using Python 3.12.3 environment at: /opt/venv
+2026-06-29T09:37:42.482Z [INFO] #20 0.999 Resolved 89 packages in 735ms
+2026-06-29T09:37:42.718Z [INFO] #20 1.084 Downloading brotli (1.4MiB)
+2026-06-29T09:37:42.718Z [INFO] #20 1.084 Downloading cryptography (4.5MiB)
+2026-06-29T09:37:42.718Z [INFO] #20 1.085 Downloading botocore (14.6MiB)
+2026-06-29T09:37:42.718Z [INFO] #20 1.085 Downloading uvloop (4.2MiB)
+2026-06-29T09:37:42.718Z [INFO] #20 1.085 Downloading pynacl (1.3MiB)
+2026-06-29T09:37:42.737Z [INFO] #20 1.254  Downloaded brotli
+2026-06-29T09:37:42.973Z [INFO] #20 1.268  Downloaded pynacl
+2026-06-29T09:37:42.973Z [INFO] #20 1.333  Downloaded uvloop
+2026-06-29T09:37:42.973Z [INFO] #20 1.340  Downloaded cryptography
+2026-06-29T09:37:43.063Z [INFO] #20 1.580  Downloaded botocore
+2026-06-29T09:37:43.213Z [INFO] #20 1.580 Prepared 44 packages in 579ms
+2026-06-29T09:37:43.398Z [INFO] #20 1.915 Installed 44 packages in 334ms
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + aiodns==4.0.4
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + aiohttp-retry==2.9.1
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + backports-zstd==1.6.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + bcrypt==5.0.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + boto3==1.43.36
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + botocore==1.43.36
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + brotli==1.2.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + cffi==2.0.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + colorama==0.4.6
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + cryptography==49.0.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + detect-installer==0.1.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + dnspython==2.8.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + email-validator==2.3.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + fastapi==0.138.1
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + fastapi-cli==0.0.27
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + fastapi-cloud-cli==0.21.0
+2026-06-29T09:37:43.600Z [INFO] #20 1.915  + fastar==0.11.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.915  + httptools==0.8.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.915  + inquirerpy==0.3.4
+2026-06-29T09:37:43.601Z [INFO] #20 1.915  + invoke==3.0.3
+2026-06-29T09:37:43.601Z [INFO] #20 1.915  + itsdangerous==2.2.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + jmespath==1.1.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + paramiko==5.0.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + pfzy==0.3.4
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + prettytable==3.18.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + py-cpuinfo==9.0.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + pycares==5.0.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + pycparser==3.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + pydantic-extra-types==2.11.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + pynacl==1.6.2
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + python-multipart==0.0.32
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + rich-toolkit==0.20.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + rignore==0.7.6
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + runpod==1.10.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + s3transfer==0.19.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + sentry-sdk==2.63.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + starlette==1.3.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + tomli==2.4.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + tqdm-loggable==0.4.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + uvicorn==0.49.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + uvloop==0.22.1
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + watchdog==6.0.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + watchfiles==1.2.0
+2026-06-29T09:37:43.601Z [INFO] #20 1.916  + websockets==16.0
+2026-06-29T09:37:43.601Z [INFO] #20 DONE 2.0s
+2026-06-29T09:37:43.601Z [INFO] #21 [base 15/21] ADD src/start.sh src/network_volume.py handler.py test_input.json ./
+2026-06-29T09:37:43.601Z [INFO] #21 DONE 0.1s
+2026-06-29T09:37:43.751Z [INFO] #22 [base 16/21] RUN chmod +x /start.sh
+2026-06-29T09:37:43.773Z [INFO] #22 DONE 0.2s
+2026-06-29T09:37:43.940Z [INFO] #23 [base 17/21] COPY scripts/comfy-node-install.sh /usr/local/bin/comfy-node-install
+2026-06-29T09:37:43.940Z [INFO] #23 DONE 0.0s
+2026-06-29T09:37:43.941Z [INFO] #24 [base 18/21] RUN chmod +x /usr/local/bin/comfy-node-install
+2026-06-29T09:37:43.961Z [INFO] #24 DONE 0.2s
+2026-06-29T09:37:44.128Z [INFO] #25 [base 19/21] COPY scripts/comfy-manager-set-mode.sh /usr/local/bin/comfy-manager-set-mode
+2026-06-29T09:37:44.128Z [INFO] #25 DONE 0.0s
+2026-06-29T09:37:44.128Z [INFO] #26 [base 20/21] RUN chmod +x /usr/local/bin/comfy-manager-set-mode
+2026-06-29T09:37:44.133Z [INFO] #26 DONE 0.2s
+2026-06-29T09:37:44.299Z [INFO] #27 [downloader 1/9] WORKDIR /comfyui
+2026-06-29T09:37:44.299Z [INFO] #27 DONE 0.0s
+2026-06-29T09:37:44.299Z [INFO] #28 [downloader 2/9] RUN mkdir -p models/checkpoints models/vae models/unet models/clip models/text_encoders models/diffusion_models models/model_patches models/loras models/latent_upscale_models
+2026-06-29T09:37:44.330Z [INFO] #28 DONE 0.2s
+2026-06-29T09:37:44.481Z [INFO] #29 [downloader 3/9] RUN if [ "flux1-dev-fp8" = "sdxl" ]; then       wget -q -O models/checkpoints/sd_xl_base_1.0.safetensors https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors &&       wget -q -O models/vae/sdxl_vae.safetensors https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors &&       wget -q -O models/vae/sdxl-vae-fp16-fix.safetensors https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors;     fi
+2026-06-29T09:37:44.491Z [INFO] #29 DONE 0.2s
+2026-06-29T09:37:44.641Z [INFO] #30 [downloader 4/9] RUN if [ "flux1-dev-fp8" = "sd3" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/checkpoints/sd3_medium_incl_clips_t5xxlfp8.safetensors https://huggingface.co/stabilityai/stable-diffusion-3-medium/resolve/main/sd3_medium_incl_clips_t5xxlfp8.safetensors;     fi
+2026-06-29T09:37:44.656Z [INFO] #30 DONE 0.2s
+2026-06-29T09:37:44.807Z [INFO] #31 [downloader 5/9] RUN if [ "flux1-dev-fp8" = "flux1-schnell" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/unet/flux1-schnell.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors &&       wget -q -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors &&       wget -q -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/vae/ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors;     fi
+2026-06-29T09:37:44.822Z [INFO] #31 DONE 0.2s
+2026-06-29T09:37:44.973Z [INFO] #32 [downloader 6/9] RUN if [ "flux1-dev-fp8" = "flux1-dev" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/unet/flux1-dev.safetensors https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors &&       wget -q -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors &&       wget -q -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/vae/ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors;     fi
+2026-06-29T09:37:44.991Z [INFO] #32 DONE 0.2s
+2026-06-29T09:37:45.142Z [INFO] #33 [downloader 7/9] RUN if [ "flux1-dev-fp8" = "flux1-dev-fp8" ]; then       wget -q -O models/checkpoints/flux1-dev-fp8.safetensors https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors;     fi
+2026-06-29T09:44:30.313Z [INFO] #33 DONE 405.3s
+2026-06-29T09:44:30.464Z [INFO] #34 [downloader 8/9] RUN if [ "flux1-dev-fp8" = "z-image-turbo" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/text_encoders/qwen_3_4b.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/diffusion_models/z_image_turbo_bf16.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/vae/ae.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/model_patches/Z-Image-Turbo-Fun-Controlnet-Union.safetensors https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union.safetensors;     fi
+2026-06-29T09:44:30.497Z [INFO] #34 DONE 0.2s
+2026-06-29T09:44:30.648Z [INFO] #35 [downloader 9/9] RUN if [ "flux1-dev-fp8" = "ltxvideo" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/checkpoints/ltx-2.3-22b-distilled-1.1.safetensors https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-1.1.safetensors &&       wget -q -O models/latent_upscale_models/ltx-2.3-spatial-upscaler-x2-1.1.safetensors https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors &&       wget -q -O models/latent_upscale_models/ltx-2.3-temporal-upscaler-x2-1.0.safetensors https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors &&       wget -q -O models/loras/ltx-2.3-22b-distilled-lora-384-1.1.safetensors https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384-1.1.safetensors &&       wget -q -O models/loras/LTX-2.3-Licon-MSR-V1.safetensors https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference/resolve/main/LTX-2.3-Licon-MSR-V1.safetensors &&       huggingface-cli download google/gemma-3-12b-it-qat-q4_0-unquantized --local-dir models/text_encoders/gemma-3-12b-it-qat-q4_0-unquantized --token "${HUGGINGFACE_ACCESS_TOKEN}";     fi
+2026-06-29T09:44:30.679Z [INFO] #35 DONE 0.2s
+2026-06-29T09:44:43.456Z [INFO] #36 [final 1/1] COPY --from=downloader /comfyui/models /comfyui/models
+2026-06-29T09:44:43.566Z [INFO] #36 DONE 0.1s
+2026-06-29T09:44:43.718Z [INFO] #37 exporting to oci image format. This takes a little bit of time. Please be patient.
+2026-06-29T09:44:43.718Z [INFO] #37 exporting layers
+2026-06-29T09:50:10.542Z [INFO] #37 exporting layers 327.0s done
+2026-06-29T09:50:10.696Z [INFO] #37 exporting manifest sha256:f3ac192a77138d81626a0d038ca1638f85545d68616e26e0c436500afc4c9600 done
+2026-06-29T09:50:10.696Z [INFO] #37 exporting config sha256:ef754ba7173511b36785f87ca48ae6badf030691953b06eeeeba6b28dfda32d0 done
+2026-06-29T09:50:10.696Z [INFO] #37 sending tarball
+2026-06-29T09:51:24.686Z [INFO] #37 sending tarball 74.1s done
+2026-06-29T09:51:24.686Z [INFO] #37 DONE 401.1s
+2026-06-29T09:51:24.887Z [INFO] #38 exporting cache to client directory
+2026-06-29T09:51:24.887Z [INFO] #38 preparing build cache for export
+2026-06-29T09:51:24.887Z [INFO] #38 writing layer sha256:0451a49c07d04aabd908c485db2ae79d6e91299566e94f0003ca3c4d9a903447
+2026-06-29T09:51:25.026Z [INFO] #38 writing layer sha256:0451a49c07d04aabd908c485db2ae79d6e91299566e94f0003ca3c4d9a903447 0.3s done
+2026-06-29T09:51:25.026Z [INFO] #38 writing layer sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5
+2026-06-29T09:51:25.275Z [INFO] #38 writing layer sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 0.1s done
+2026-06-29T09:51:25.275Z [INFO] #38 writing layer sha256:233850359fc587b3cde5dccabf648f3c18a44ce0391d3166672394d6799541ce
+2026-06-29T09:51:25.332Z [INFO] #38 writing layer sha256:233850359fc587b3cde5dccabf648f3c18a44ce0391d3166672394d6799541ce 0.2s done
+2026-06-29T09:51:25.332Z [INFO] #38 writing layer sha256:2c8f4994c7fea6e923990745ddd56482d503b523677a71b4eb95354f4bcc0b48
+2026-06-29T09:51:25.575Z [INFO] #38 writing layer sha256:2c8f4994c7fea6e923990745ddd56482d503b523677a71b4eb95354f4bcc0b48 0.1s done
+2026-06-29T09:51:25.575Z [INFO] #38 writing layer sha256:2df119742c247392d0f45eda2bcf25934421c788f57e96034cf455afdc28cb4b
+2026-06-29T09:52:32.086Z [INFO] #38 writing layer sha256:2df119742c247392d0f45eda2bcf25934421c788f57e96034cf455afdc28cb4b 66.7s done
+2026-06-29T09:52:32.086Z [INFO] #38 writing layer sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4
+2026-06-29T09:52:32.328Z [INFO] #38 writing layer sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 0.1s done
+2026-06-29T09:52:32.328Z [INFO] #38 writing layer sha256:3bbcd4d65e2938b4e957e03e5a0acafb2236f72190c4607276646d9a81101157
+2026-06-29T09:52:32.496Z [INFO] #38 writing layer sha256:3bbcd4d65e2938b4e957e03e5a0acafb2236f72190c4607276646d9a81101157 0.3s done
+2026-06-29T09:52:32.496Z [INFO] #38 writing layer sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2026-06-29T09:52:32.740Z [INFO] #38 writing layer sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+2026-06-29T09:52:32.740Z [INFO] #38 writing layer sha256:5c8b36df1236b76cbbe3b584ac05f13b601318da529e7bb39e6dcc0ca9c99d42
+2026-06-29T09:52:33.260Z [INFO] #38 writing layer sha256:5c8b36df1236b76cbbe3b584ac05f13b601318da529e7bb39e6dcc0ca9c99d42 0.7s done
+2026-06-29T09:52:33.260Z [INFO] #38 writing layer sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa
+2026-06-29T09:52:33.460Z [INFO] #38 writing layer sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa 0.1s done
+2026-06-29T09:52:33.460Z [INFO] #38 writing layer sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 0.1s done
+2026-06-29T09:52:33.460Z [INFO] #38 writing layer sha256:86bfc981bb8d485aeefc06e0efb320dc203785e4ed7433bd1c73981d4f2ab6b8
+2026-06-29T09:52:33.673Z [INFO] #38 writing layer sha256:86bfc981bb8d485aeefc06e0efb320dc203785e4ed7433bd1c73981d4f2ab6b8 0.1s done
+2026-06-29T09:52:33.673Z [INFO] #38 writing layer sha256:8a7b162fe9d7576472b57fcabd0c2fe726a03f1b30631b69d9d892d38bc2cc7b 0.1s done
+2026-06-29T09:52:33.673Z [INFO] #38 writing layer sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460
+2026-06-29T09:52:34.084Z [INFO] #38 writing layer sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 0.4s done
+2026-06-29T09:52:34.084Z [INFO] #38 writing layer sha256:9234e579921f852f764d2ae5ae9572909f044a0f34e127b470acc8f16a38daa5
+2026-06-29T09:52:34.566Z [INFO] #38 writing layer sha256:9234e579921f852f764d2ae5ae9572909f044a0f34e127b470acc8f16a38daa5 0.5s done
+2026-06-29T09:52:34.566Z [INFO] #38 writing layer sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f
+2026-06-29T09:52:34.809Z [INFO] #38 writing layer sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f 0.1s done
+2026-06-29T09:52:34.810Z [INFO] #38 writing layer sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0
+2026-06-29T09:52:41.686Z [INFO] #38 writing layer sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 7.0s done
+2026-06-29T09:52:41.686Z [INFO] #38 writing layer sha256:ababa1a3046cf09bd64edebf1ecd6bda97de3bf5a7a3a64efa0b063f5c919745
+2026-06-29T09:52:41.794Z [INFO] #38 writing layer sha256:ababa1a3046cf09bd64edebf1ecd6bda97de3bf5a7a3a64efa0b063f5c919745 0.1s done
+2026-06-29T09:52:41.794Z [INFO] #38 writing layer sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f
+2026-06-29T09:52:42.052Z [INFO] #38 writing layer sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 0.3s done
+2026-06-29T09:52:42.052Z [INFO] #38 writing layer sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc
+2026-06-29T09:52:42.165Z [INFO] #38 writing layer sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc 0.1s done
+2026-06-29T09:52:42.165Z [INFO] #38 writing layer sha256:c75a9dce650ad9978076ea75d0fbe074039e4476c6450990e46850687e4f65e6
+2026-06-29T09:52:44.044Z [INFO] #38 writing layer sha256:c75a9dce650ad9978076ea75d0fbe074039e4476c6450990e46850687e4f65e6 1.9s done
+2026-06-29T09:52:44.044Z [INFO] #38 writing layer sha256:d5231894062e797f9236293b87c678afe472757482a4d31df05de895be564655
+2026-06-29T09:52:44.286Z [INFO] #38 writing layer sha256:d5231894062e797f9236293b87c678afe472757482a4d31df05de895be564655 0.1s done
+2026-06-29T09:52:44.286Z [INFO] #38 writing layer sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd
+2026-06-29T09:52:47.067Z [INFO] #38 writing layer sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 2.9s done
+2026-06-29T09:52:47.067Z [INFO] #38 writing layer sha256:e7054efee565bbb753ccea9fe9e2921655a4a5534bb6dea9eec61e9be971425b
+2026-06-29T09:53:22.540Z [INFO] #38 writing layer sha256:e7054efee565bbb753ccea9fe9e2921655a4a5534bb6dea9eec61e9be971425b 35.5s done
+2026-06-29T09:53:22.540Z [INFO] #38 writing layer sha256:ec6d1d6d9c0807382ea9d4cdb95412f983410b8e62a0915395f33043cca80363
+2026-06-29T09:53:22.780Z [INFO] #38 writing layer sha256:ec6d1d6d9c0807382ea9d4cdb95412f983410b8e62a0915395f33043cca80363 0.1s done
+2026-06-29T09:53:22.780Z [INFO] #38 writing layer sha256:eebc1ad1566677a7345b88abb2df5d8b501a15ffb0ac571294233721f1ad263c
+2026-06-29T09:53:53.847Z [INFO] #38 writing layer sha256:eebc1ad1566677a7345b88abb2df5d8b501a15ffb0ac571294233721f1ad263c 31.2s done
+2026-06-29T09:53:53.847Z [INFO] #38 writing layer sha256:efa1929400664882ad6dc621106fe104e0830c43efd1914a7c67c7816cf3e23c
+2026-06-29T09:53:54.027Z [INFO] #38 writing layer sha256:efa1929400664882ad6dc621106fe104e0830c43efd1914a7c67c7816cf3e23c 0.1s done
+2026-06-29T09:53:54.027Z [INFO] #38 writing layer sha256:f381b7f2aa3e4f7770b6f892ea4c693e27e21f067228928611ef9b40de3bde26 0.1s done
+2026-06-29T09:53:54.027Z [INFO] #38 writing layer sha256:fc802556dee873733cca962aab1ec36c29362fb515533dfea1798be253e87e07
+2026-06-29T09:53:54.237Z [INFO] #38 writing layer sha256:fc802556dee873733cca962aab1ec36c29362fb515533dfea1798be253e87e07 0.1s done
+2026-06-29T09:53:54.237Z [INFO] #38 writing config sha256:b7a3d853667825aec120f0fb254a286ad56f694b0bf68b078651a03fcf4df634 0.1s done
+2026-06-29T09:53:54.237Z [INFO] #38 writing cache manifest sha256:13ae70ba6ebfc0d9d0e93200c197575a2cbd6e98d5f860eb1267a6e1cc9cb590
+2026-06-29T09:53:54.382Z [INFO] #38 preparing build cache for export 149.6s done
+2026-06-29T09:53:54.382Z [INFO] #38 writing cache manifest sha256:13ae70ba6ebfc0d9d0e93200c197575a2cbd6e98d5f860eb1267a6e1cc9cb590 0.1s done
+2026-06-29T09:53:54.382Z [INFO] #38 DONE 149.6s
+2026-06-29T09:53:54.382Z [INFO] WARNING: current commit information was not captured by the build: git was not found in the system: exec: "git": executable file not found in $PATH
+2026-06-29T09:53:54.383Z [INFO]  [33m1 warning found (use docker --debug to expand):
+2026-06-29T09:53:54.383Z [INFO] [0m - SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ARG "HUGGINGFACE_ACCESS_TOKEN") (line 128)
+2026-06-29T09:53:54.393Z [INFO] Build complete.
+2026-06-29T09:53:54.661Z [INFO] Pushing image to registry. This takes some time - please be patient.
+2026-06-29T09:53:54.664Z [INFO] Starting registry push
+2026-06-29T09:53:54.664Z [INFO] Extracting /app/registry-push/output.tar to /app/registry-push/.output-image
+2026-06-29T09:54:22.982Z [INFO] Extraction complete
+2026-06-29T09:54:22.983Z [INFO] Push registry.runpod.net/cdmstrong-worker-comfyui-main-dockerfile:2f28156ce
+2026-06-29T09:54:22.983Z [INFO] 31 layers, 26.45 GB total
+2026-06-29T09:54:22.983Z [INFO]   afad30e59d72  layer      28.4 MB
+2026-06-29T09:54:22.983Z [INFO]   bd06d3ff2532  layer       4.3 MB
+2026-06-29T09:54:22.983Z [INFO]   8c0575e6ec2e  layer      54.7 MB
+2026-06-29T09:54:22.983Z [INFO]   95c4042ee7b4  layer        186 B
+2026-06-29T09:54:22.983Z [INFO]   150ae9de14cf  layer       6.7 KB
+2026-06-29T09:54:22.983Z [INFO]   9cccfd001630  layer      1.34 GB
+2026-06-29T09:54:22.983Z [INFO]   77b0ceda29ac  layer      58.0 KB
+2026-06-29T09:54:22.983Z [INFO]   6fd18a520430  layer       1.6 KB
+2026-06-29T09:54:22.983Z [INFO]   3b176c2fc716  layer       1.5 KB
+2026-06-29T09:54:22.983Z [INFO]   d67931eaa1a4  layer     549.3 MB
+2026-06-29T09:54:22.983Z [INFO]   c75a9dce650a  layer     316.1 MB
+2026-06-29T09:54:22.983Z [INFO]   efa192940066  layer        649 B
+2026-06-29T09:54:22.983Z [INFO]   0451a49c07d0  layer      25.0 MB
+2026-06-29T09:54:22.983Z [INFO]   5c8b36df1236  layer      98.5 MB
+2026-06-29T09:54:22.983Z [INFO]   eebc1ad15666  layer      5.62 GB
+2026-06-29T09:54:22.983Z [INFO]   4f4fb700ef54  layer         32 B
+2026-06-29T09:54:22.983Z [INFO]   233850359fc5  layer       7.9 MB
+2026-06-29T09:54:22.983Z [INFO]   fc802556dee8  layer      11.9 KB
+2026-06-29T09:54:22.983Z [INFO]   e7054efee565  layer      6.31 GB
+2026-06-29T09:54:22.983Z [INFO]   3bbcd4d65e29  layer      32.8 MB
+2026-06-29T09:54:22.983Z [INFO]   d5231894062e  layer        316 B
+2026-06-29T09:54:22.983Z [INFO]   9234e579921f  layer      67.8 MB
+2026-06-29T09:54:22.983Z [INFO]   f381b7f2aa3e  layer      13.2 KB
+2026-06-29T09:54:22.983Z [INFO]   2c8f4994c7fe  layer       1.6 KB
+2026-06-29T09:54:22.983Z [INFO]   86bfc981bb8d  layer       1003 B
+2026-06-29T09:54:22.983Z [INFO]   8a7b162fe9d7  layer        998 B
+2026-06-29T09:54:22.983Z [INFO]   ec6d1d6d9c08  layer        666 B
+2026-06-29T09:54:22.983Z [INFO]   ababa1a3046c  layer        662 B
+2026-06-29T09:54:22.983Z [INFO]   2df119742c24  layer     12.02 GB
+2026-06-29T09:54:22.983Z [INFO]   ef754ba71735  config     22.3 KB
+2026-06-29T09:54:23.374Z [INFO] [direct-plan] 5c8b36df1236 single size=98.5 MB
+2026-06-29T09:54:23.397Z [INFO] [direct-plan] afad30e59d72 single size=28.4 MB
+2026-06-29T09:54:23.403Z [INFO] [direct-plan] c75a9dce650a single size=316.1 MB
+2026-06-29T09:54:23.448Z [INFO] [direct-plan] 8c0575e6ec2e single size=54.7 MB
+2026-06-29T09:54:23.473Z [INFO] [direct-plan] 0451a49c07d0 single size=25.0 MB
+2026-06-29T09:54:23.500Z [INFO] [direct-plan] d67931eaa1a4 multipart parts=2 part_size=512.0 MB total=549.3 MB
+2026-06-29T09:54:23.522Z [INFO] [direct-plan] 9cccfd001630 multipart parts=3 part_size=512.0 MB total=1.34 GB
+2026-06-29T09:54:23.633Z [INFO] [direct-plan] eebc1ad15666 multipart parts=12 part_size=512.0 MB total=5.62 GB
+2026-06-29T09:54:24.693Z [INFO]   uploaded 4f4fb700ef54 32 B
+2026-06-29T09:54:24.734Z [INFO]   uploaded efa192940066 649 B
+2026-06-29T09:54:24.739Z [INFO]   uploaded 77b0ceda29ac 58.0 KB
+2026-06-29T09:54:24.758Z [INFO]   uploaded f381b7f2aa3e 13.2 KB
+2026-06-29T09:54:24.763Z [INFO]   uploaded 95c4042ee7b4 186 B
+2026-06-29T09:54:24.765Z [INFO]   uploaded 150ae9de14cf 6.7 KB
+2026-06-29T09:54:24.770Z [INFO]   uploaded 6fd18a520430 1.6 KB
+2026-06-29T09:54:24.823Z [INFO]   uploaded ef754ba71735 22.3 KB
+2026-06-29T09:54:24.869Z [INFO]   uploaded 4f4fb700ef54 32 B
+2026-06-29T09:54:24.869Z [INFO]   uploaded 3b176c2fc716 1.5 KB
+2026-06-29T09:54:25.000Z [INFO] [direct-plan] 3bbcd4d65e29 single size=32.8 MB
+2026-06-29T09:54:25.014Z [INFO] [direct-plan] 9234e579921f single size=67.8 MB
+2026-06-29T09:54:25.122Z [INFO] [direct-plan] e7054efee565 multipart parts=13 part_size=512.0 MB total=6.31 GB
+2026-06-29T09:54:25.211Z [INFO] [direct-plan] 2df119742c24 multipart parts=25 part_size=512.0 MB total=12.02 GB
+2026-06-29T09:54:25.241Z [INFO]   uploaded bd06d3ff2532 4.3 MB
+2026-06-29T09:54:25.300Z [INFO]   uploaded afad30e59d72 28.4 MB
+2026-06-29T09:54:25.397Z [INFO]   uploaded 0451a49c07d0 25.0 MB
+2026-06-29T09:54:25.658Z [INFO]   uploaded 233850359fc5 7.9 MB
+2026-06-29T09:54:26.243Z [INFO]   uploaded d5231894062e 316 B
+2026-06-29T09:54:26.288Z [INFO]   uploaded 2c8f4994c7fe 1.6 KB
+2026-06-29T09:54:26.345Z [INFO]   uploaded fc802556dee8 11.9 KB
+2026-06-29T09:54:26.493Z [INFO]   uploaded ababa1a3046c 662 B
+2026-06-29T09:54:26.520Z [INFO]   uploaded 86bfc981bb8d 1003 B
+2026-06-29T09:54:26.548Z [INFO]   uploaded 8c0575e6ec2e 54.7 MB
+2026-06-29T09:54:26.562Z [INFO]   uploaded ec6d1d6d9c08 666 B
+2026-06-29T09:54:26.952Z [INFO]   uploaded 8a7b162fe9d7 998 B
+2026-06-29T09:54:26.968Z [INFO]   uploaded 3bbcd4d65e29 32.8 MB
+2026-06-29T09:54:27.395Z [INFO]   uploaded 5c8b36df1236 98.5 MB
+2026-06-29T09:54:27.983Z [INFO] [status] 24/31 layers 293.3 MB in 5.00s @ 58.7 MB/s
+2026-06-29T09:54:29.722Z [INFO]   uploaded 9234e579921f 67.8 MB
+2026-06-29T09:54:32.986Z [INFO] [status] 25/31 layers 487.0 MB in 10.00s @ 48.7 MB/s
+2026-06-29T09:54:37.983Z [INFO] [status] 25/31 layers 487.0 MB in 15.00s @ 32.5 MB/s
+2026-06-29T09:54:42.738Z [INFO]   uploaded c75a9dce650a 316.1 MB
+2026-06-29T09:54:42.988Z [INFO] [status] 26/31 layers 3.10 GB in 20.01s @ 158.6 MB/s
+2026-06-29T09:54:47.984Z [INFO] [status] 26/31 layers 12.44 GB in 25.00s @ 509.4 MB/s
+2026-06-29T09:54:49.143Z [INFO]   uploaded d67931eaa1a4 549.3 MB
+2026-06-29T09:54:52.773Z [INFO]   uploaded eebc1ad15666 5.62 GB
+2026-06-29T09:54:52.983Z [INFO] [status] 28/31 layers 21.94 GB in 30.00s @ 748.8 MB/s
+2026-06-29T09:54:53.072Z [INFO]   uploaded e7054efee565 6.31 GB
+2026-06-29T09:54:54.031Z [INFO]   uploaded 9cccfd001630 1.34 GB
+2026-06-29T09:54:57.983Z [INFO] [status] 30/31 layers 24.44 GB in 35.00s @ 715.0 MB/s
+2026-06-29T09:55:02.983Z [INFO] [status] 30/31 layers 24.94 GB in 40.00s @ 638.4 MB/s
+2026-06-29T09:55:07.985Z [INFO] [status] 30/31 layers 25.94 GB in 45.00s @ 590.2 MB/s
+2026-06-29T09:55:12.984Z [INFO] [status] 30/31 layers 26.44 GB in 50.00s @ 541.4 MB/s
+2026-06-29T09:55:13.570Z [INFO]   uploaded 2df119742c24 12.02 GB
+2026-06-29T09:55:13.570Z [INFO] [status] 31/31 layers 26.44 GB in 50.59s @ 535.2 MB/s
+2026-06-29T09:55:16.328Z [INFO] ✓ Pushed 26.45 GB in 53.3s (507.7 MB/s)
+2026-06-29T09:55:16.333Z [INFO] Successfully pushed image to registry.
