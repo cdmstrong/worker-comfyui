@@ -62,6 +62,10 @@ RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
       uv pip install --force-reinstall torch torchvision torchaudio --index-url ${PYTORCH_INDEX_URL}; \
     fi
 
+# Copy custom nodes into ComfyUI's custom_nodes directory
+COPY ComfyUI-LTXVideo-master /comfyui/custom_nodes/ComfyUI-LTXVideo/
+COPY ComfyUI-Licon-MSR-main /comfyui/custom_nodes/ComfyUI-Licon-MSR/
+
 # comfy-cli installs ComfyUI into its own workspace venv (/comfyui/.venv), but
 # start.sh launches ComfyUI with /opt/venv's python. That mismatch leaves the
 # launch venv missing ComfyUI's runtime deps (e.g. sqlalchemy, pulled in by
