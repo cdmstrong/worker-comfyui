@@ -6,7 +6,7 @@ FROM ${BASE_IMAGE} AS base
 
 # Build arguments for this stage with sensible defaults for standalone builds
 ARG COMFYUI_VERSION=latest
-ARG CUDA_VERSION_FOR_COMFY
+ARG CUDA_VERSION_FOR_COMFY=12.8
 ARG ENABLE_PYTORCH_UPGRADE=false
 ARG PYTORCH_INDEX_URL
 
@@ -84,8 +84,7 @@ RUN uv pip install -r /comfyui/requirements.txt \
     && for r in /comfyui/custom_nodes/*/requirements.txt; do \
          [ -f "$r" ] && uv pip install -r "$r" || true; \
        done \
-    && uv pip install "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8" \
-    && uv pip install "torch<2.12" "torchvision<2.12" "torchaudio<2.12"
+    && uv pip install "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8"
 
 # Build-time smoke test: actually start ComfyUI (imports the full node graph) so
 # a startup-breaking dependency is caught HERE, at build time, instead of as a
