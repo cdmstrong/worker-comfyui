@@ -86,8 +86,8 @@ RUN uv pip install -r /comfyui/requirements.txt \
     && for r in /comfyui/custom_nodes/*/requirements.txt; do \
          [ -f "$r" ] && uv pip install -r "$r" || true; \
        done \
-    && uv pip install "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8" \
-    && uv pip install "torch<2.12" "torchvision<2.12" "torchaudio<2.12"
+    && uv pip install --force-reinstall "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8" \
+    && uv pip install --force-reinstall "torch<2.12" "torchvision<2.12" "torchaudio<2.12"
 
 # Build-time smoke test: actually start ComfyUI (imports the full node graph) so
 # a startup-breaking dependency is caught HERE, at build time, instead of as a
