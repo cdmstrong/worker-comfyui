@@ -68,11 +68,13 @@ RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
       uv pip install --python /comfyui/.venv --force-reinstall torch torchvision torchaudio --index-url ${PYTORCH_INDEX_URL}; \
     fi
 
-# Copy custom nodes into ComfyUI's custom_nodes directory
-COPY ComfyUI-LTXVideo-master /comfyui/custom_nodes/ComfyUI-LTXVideo/
-COPY ComfyUI-Licon-MSR-main /comfyui/custom_nodes/ComfyUI-Licon-MSR/
-COPY ComfyUI-KJNodes /comfyui/custom_nodes/ComfyUI-KJNodes/
-COPY ComfyUI-PromptRelay /comfyui/custom_nodes/ComfyUI-PromptRelay/
+# Install custom nodes via comfy-cli so the image is built from upstream
+# repositories instead of vendored source copies.
+RUN comfy-node-install \
+    https://github.com/Lightricks/ComfyUI-LTXVideo \
+    https://github.com/liconstudio/ComfyUI-Licon-MSR \
+    https://github.com/kijai/ComfyUI-KJNodes \
+    https://github.com/kijai/ComfyUI-PromptRelay
 
 # Keep ComfyUI core, custom node dependencies, compatibility pins, and handler
 # dependencies in the same workspace venv. Do not mirror packages into /opt/venv:
