@@ -70,7 +70,7 @@ RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
 
 # Install custom nodes via comfy-cli so the image is built from upstream
 # repositories instead of vendored source copies.
-RUN comfy-node-install \
+RUN VIRTUAL_ENV="/comfyui/.venv" PATH="/comfyui/.venv/bin:/opt/venv/bin:${PATH}" comfy node install --mode=remote \
     https://github.com/Lightricks/ComfyUI-LTXVideo \
     https://github.com/liconstudio/ComfyUI-Licon-MSR \
     https://github.com/kijai/ComfyUI-KJNodes \
