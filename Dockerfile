@@ -44,7 +44,7 @@ RUN wget -qO- https://astral.sh/uv/install.sh | sh \
     && ln -s /root/.local/bin/uvx /usr/local/bin/uvx \
     && uv venv /opt/venv
 
-# Use the virtual environment for all subsequent commands
+# Use the bootstrap virtual environment for comfy-cli during installation
 ENV PATH="/opt/venv/bin:${PATH}"
 
 # Install comfy-cli + dependencies needed by it to install ComfyUI
@@ -57,9 +57,15 @@ RUN if [ -n "${CUDA_VERSION_FOR_COMFY}" ]; then \
       /usr/bin/yes | comfy --workspace /comfyui install --version "${COMFYUI_VERSION}" --nvidia; \
     fi
 
+# Make ComfyUI's workspace environment the only runtime Python environment.
+# comfy-cli creates /comfyui/.venv during install; ComfyUI, custom nodes,
+# smoke tests, and the worker handler must all use that same environment.
+ENV VIRTUAL_ENV="/comfyui/.venv"
+ENV PATH="/comfyui/.venv/bin:/opt/venv/bin:${PATH}"
+
 # Upgrade PyTorch if needed (for newer CUDA versions)
 RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
-      uv pip install --force-reinstall torch torchvision torchaudio --index-url ${PYTORCH_INDEX_URL}; \
+      uv pip install --python /comfyui/.venv --force-reinstall torch torchvision torchaudio --index-url ${PYTORCH_INDEX_URL}; \
     fi
 
 # Copy custom nodes into ComfyUI's custom_nodes directory
@@ -68,26 +74,16 @@ COPY ComfyUI-Licon-MSR-main /comfyui/custom_nodes/ComfyUI-Licon-MSR/
 COPY ComfyUI-KJNodes /comfyui/custom_nodes/ComfyUI-KJNodes/
 COPY ComfyUI-PromptRelay /comfyui/custom_nodes/ComfyUI-PromptRelay/
 
-# comfy-cli installs ComfyUI into its own workspace venv (/comfyui/.venv), but
-# start.sh launches ComfyUI with /opt/venv's python. That mismatch leaves the
-# launch venv missing ComfyUI's runtime deps (e.g. sqlalchemy, pulled in by
-# ComfyUI's asset DB), so ComfyUI crashes at startup and surfaces as the
-# misleading "ComfyUI server (127.0.0.1:8188) not reachable" error. Mirror
-# ComfyUI's full dependency set (core + custom nodes) into /opt/venv so the
-# launch venv is complete. Root-cause fix for DR-1170.
-#
-# The transformers/huggingface-hub pin is part of the SAME step on purpose:
-# ComfyUI declares transformers>=4.50.3 and huggingface-hub with NO upper bound,
-# so a fresh install can pull transformers 5.x / huggingface-hub 1.x whose
-# breaking API changes also crash ComfyUI at startup. Pinning them in the same
-# RUN downgrades within one layer, so the unwanted versions aren't left behind
-# bloating the image.
-RUN uv pip install -r /comfyui/requirements.txt \
+# Keep ComfyUI core, custom node dependencies, compatibility pins, and handler
+# dependencies in the same workspace venv. Do not mirror packages into /opt/venv:
+# that creates two environments with different dependency graphs.
+RUN uv pip install --python /comfyui/.venv -r /comfyui/requirements.txt \
     && for r in /comfyui/custom_nodes/*/requirements.txt; do \
-         [ -f "$r" ] && uv pip install -r "$r" || true; \
+         [ -f "$r" ] && uv pip install --python /comfyui/.venv -r "$r" || true; \
        done \
-    && uv pip install --force-reinstall "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8" \
-    && uv pip install --force-reinstall "torch<2.12" "torchvision<2.12" "torchaudio<2.12"
+    && uv pip install --python /comfyui/.venv --force-reinstall "transformers>=4.50.3,<5" "huggingface-hub<1.0" "kornia<0.8" \
+    && uv pip install --python /comfyui/.venv --force-reinstall "torch<2.12" "torchvision<2.12" "torchaudio<2.12" \
+    && uv pip install --python /comfyui/.venv runpod requests websocket-client
 
 # Build-time smoke test: actually start ComfyUI (imports the full node graph) so
 # a startup-breaking dependency is caught HERE, at build time, instead of as a
@@ -105,7 +101,7 @@ ADD src/extra_model_paths.yaml ./
 WORKDIR /
 
 # Install Python runtime dependencies for the handler
-RUN uv pip install runpod requests websocket-client
+# Already installed into /comfyui/.venv above so handler and ComfyUI share one environment.
 
 # Add application code and scripts
 ADD src/start.sh src/network_volume.py handler.py test_input.json ./

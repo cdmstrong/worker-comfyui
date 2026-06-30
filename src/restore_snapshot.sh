@@ -11,6 +11,6 @@ fi
 
 echo "worker-comfyui: restoring snapshot: $SNAPSHOT_FILE"
 
-comfy --workspace /comfyui node restore-snapshot "$SNAPSHOT_FILE" --pip-non-url
+VIRTUAL_ENV=/comfyui/.venv PATH="/comfyui/.venv/bin:$PATH" comfy --workspace /comfyui node restore-snapshot "$SNAPSHOT_FILE" --pip-non-url
 
 echo "worker-comfyui: restored snapshot file: $SNAPSHOT_FILE"
